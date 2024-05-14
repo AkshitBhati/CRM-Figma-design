@@ -10,14 +10,17 @@ const Homepage = () => {
     <div className='home__wrapper'>
       
       <div>
-        <Chart />
+        {/* chart component with all the doughnut chart  */}
+        <Chart /> 
       </div>
 
-      <div>
+      <div> 
+        {/* quick action section  */}
         <QuickActions />
       </div>
 
       <div>
+        {/* priority section  */}
         <Priority />
       </div>
     </div>
