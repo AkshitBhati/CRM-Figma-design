@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Noto Sans;
+    padding: 15px;
+    
+}
+.navbar h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+.navbar__items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 8px 0px rgba(26, 56, 117, 0.05);
+    border-radius: 17px;
+    padding: 5px ;
+    width: 15%;
+}
+
+@media (max-width:1000px){
+    .navbar h1{
+        font-size: 18px;
+    }
+    .navbar__items{
+        width: 40%;
+    }
+}

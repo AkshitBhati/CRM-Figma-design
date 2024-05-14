@@ -1,0 +1,39 @@
+.card__container{
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: Roboto;
+   background-color: #fff;
+   box-shadow: 0px 2px 8px 0px rgba(26, 56, 117, 0.5); 
+   padding-bottom: 15px;
+}
+.chart__data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card__chart{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+}
+.chart__data-row{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,229,162,1) 18%, rgba(255,220,131,1) 37%, rgba(255,215,114,1) 75%, rgba(255,203,73,1) 98%);
+    background:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,251,242,1) 11%, rgba(255,229,162,1) 43%, rgba(255,225,148,1) 72%, rgba(255,224,144,1) 92%, rgba(255,223,142,1) 100%);
+}
+
+.chart__data-row:nth-child(2){
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(212,207,255,1) 41%, rgba(191,184,255,1) 52%, rgba(176,167,255,1) 64%, rgba(137,123,255,1) 100%);
+}
+
+.chart__data-row:last-child {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(179,235,223,1) 27%, rgba(138,225,206,1) 70%, rgba(107,217,193,1) 99%);
+}

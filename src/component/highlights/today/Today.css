@@ -1,0 +1,31 @@
+.today__wrapper{
+    font-family: Roboto;
+    margin-top: 17px;
+    padding: 10px;
+}
+
+.today__wrapper h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+.today__wrapper p{
+   color: #676666;
+}
+
+.today__expenses{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.exprense__wrapper{
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

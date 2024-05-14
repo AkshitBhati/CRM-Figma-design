@@ -1,0 +1,31 @@
+.completed__wrapper {
+    margin-top: 20px;
+    font-family: Roboto, sans-serif; /* Adding sans-serif as fallback */
+    padding: 10px;
+  }
+  
+  .completed__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .completed__header p{
+    text-decoration: underline;
+  }
+  
+  .completed__table {
+    border: 1px solid #CBCBCB;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%; 
+
+  }
+  
+  .completed__table td {
+    border: 1px solid #CBCBCB   ;
+    padding: 10px; /* Apply padding to table cells */
+    font-size: 16px;
+  }
+  

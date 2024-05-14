@@ -1,0 +1,11 @@
+.home__wrapper{
+    width: 95%;
+    margin: auto;
+    
+}
+
+@media (max-width:1000px){
+    .home__wrapper{
+        width: 100%;
+    }
+}
